@@ -4,7 +4,7 @@ import TYPES.*;
 
 public class AST_EXP_BINOP extends AST_EXP
 {
-	int OP;
+	public int OP;
 	public AST_EXP left;
 	public AST_EXP right;
 	
